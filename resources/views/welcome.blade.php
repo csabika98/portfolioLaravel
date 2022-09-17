@@ -64,7 +64,7 @@
                             <textarea class="form-control" aria-label="With textarea" placeholder="Enter your message"></textarea>
                         </div>
                         <div class="col-12 col-md-2">
-                            <button type="submit" class="btn btn-primary">Subscribe</button>
+                            <button type="submit" class="btn btn-primary">Send</button>
                         </div>
                     </form><!--//signup-form-->
                 </div><!--//single-form-max-width-->
