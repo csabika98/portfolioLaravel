@@ -13,6 +13,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+Route::post("/contact", function (){
+   return view('contact');
+});
+
+Route::get("/about", function (){
+    return view('aboutme');
+});
+
 Route::get('/', function () {
     return view('welcome');
 });
