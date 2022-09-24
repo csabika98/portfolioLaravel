@@ -18,6 +18,10 @@ Route::post("/contact", function (){
    return view('contact');
 });
 
+Route::get("/project/view/id", function (){
+    return view('view');
+
+});
 Route::get("/about", function (){
     return view('aboutme');
 });
